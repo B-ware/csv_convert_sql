@@ -1,7 +1,7 @@
 import csv
 
 def read_csv(infilename,outfilename):
-  with open(infilename, 'rb') as csvfile:
+	with open(infilename, 'rb') as csvfile:
 		doc = csv.reader(csvfile, delimiter = ',', quotechar = '|')
 		rownum = 0
 		
