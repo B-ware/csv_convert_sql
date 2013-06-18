@@ -39,7 +39,6 @@ def write_sql(values, outfilename, rownum):
 def main():
 	str = raw_input("CSV Filename: ");
 	infilename = str + '.csv'
-	#str = raw_input("Output Filename: ");
 	outfilename = str + '.sql'
 	read_csv(infilename,outfilename)
 
