@@ -1,3 +1,6 @@
+
+# Add some additional comment for further documentation of your functions ;)
+
 import csv
 
 def read_csv(infilename,outfilename):
@@ -43,3 +46,4 @@ def main():
 	read_csv(infilename,outfilename)
 
 main()
+
